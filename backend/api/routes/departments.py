@@ -18,6 +18,27 @@ def get_departments() -> dict:
         _departments_cache = load_departments()
     return _departments_cache
 
+def get_top_traits_safe(dept, top_k=5):
+    """Safely get top traits from department object"""
+    try:
+        if hasattr(dept, 'get_top_traits'):
+            return dept.get_top_traits(top_k)
+        else:
+            # Fallback: manually calculate top traits
+            trait_weights = getattr(dept, 'trait_weights', {})
+            sorted_traits = sorted(trait_weights.items(), key=lambda x: x[1], reverse=True)
+            return [
+                {
+                    "trait": trait_name.replace('_', ' ').title(),
+                    "weight": round(weight, 3),
+                    "importance": "Critical" if weight > 0.9 else "High" if weight > 0.7 else "Moderate"
+                }
+                for trait_name, weight in sorted_traits[:top_k] if weight > 0.3
+            ]
+    except Exception as e:
+        logger.warning(f"Failed to get top traits: {e}")
+        return []
+
 @router.get("/departments", response_model=List[dict])
 async def list_departments(
     include_traits: bool = Query(False, description="Include trait weights in response")
@@ -43,7 +64,7 @@ async def list_departments(
             
             if include_traits:
                 dept_info["trait_weights"] = dept.trait_weights
-                dept_info["top_traits"] = dept.get_top_traits(5)
+                dept_info["top_traits"] = get_top_traits_safe(dept, 5)
             
             result.append(dept_info)
         
@@ -154,7 +175,7 @@ async def get_department_details(
         
         if include_traits:
             result["trait_weights"] = dept.trait_weights
-            result["top_traits"] = dept.get_top_traits(10)
+            result["top_traits"] = get_top_traits_safe(dept, 10)
         
         logger.info(f"Retrieved details for department {department_id}")
         return result
@@ -162,10 +183,10 @@ async def get_department_details(
     except HTTPException:
         raise
     except Exception as e:
-        logger.error(f"Failed to get department details: {e}")
+        logger.error(f"Failed to get department details for {department_id}: {e}")
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail="Failed to get department details"
+            detail=f"Failed to get department details: {str(e)}"
         )
 
 @router.get("/departments/{department_id}/similar", response_model=List[dict])
@@ -186,15 +207,22 @@ async def get_similar_departments(
             )
         
         target_dept = departments[department_id]
-        target_traits = target_dept.get_trait_vector()
+        
+        # Get trait weights as a list for comparison
+        target_traits = [target_dept.trait_weights.get(trait, 0.0) for trait in sorted(target_dept.trait_weights.keys())]
         
         # Calculate similarities
         similarities = []
         for dept_id, dept in departments.items():
             if dept_id != department_id:  # Exclude self
-                from utils.math_utils import cosine_similarity
-                similarity = cosine_similarity(target_traits, dept.get_trait_vector())
-                similarities.append((dept_id, dept, similarity))
+                try:
+                    from utils.math_utils import cosine_similarity
+                    dept_traits = [dept.trait_weights.get(trait, 0.0) for trait in sorted(dept.trait_weights.keys())]
+                    similarity = cosine_similarity(target_traits, dept_traits)
+                    similarities.append((dept_id, dept, similarity))
+                except Exception as e:
+                    logger.warning(f"Failed to calculate similarity for {dept_id}: {e}")
+                    continue
         
         # Sort by similarity and get top results
         similarities.sort(key=lambda x: x[2], reverse=True)
