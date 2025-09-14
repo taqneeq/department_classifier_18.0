@@ -1,0 +1,607 @@
+{
+  "question_bank": [
+    {
+      "id": "q001",
+      "text": "I am comfortable with programming languages like Python, Arduino, or JavaScript.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "technical_skills",
+      "primary_trait": "coding_aptitude",
+      "secondary_traits": [
+        "hardware_technical",
+        "web_development"
+      ],
+      "information_value": 1.8,
+      "target_departments": [
+        "events",
+        "tech"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q002",
+      "text": "I enjoy designing Instagram reels and social media content.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "creative_skills",
+      "primary_trait": "visual_creativity",
+      "secondary_traits": [
+        "content_creation",
+        "digital_design"
+      ],
+      "information_value": 1.8,
+      "target_departments": [
+        "digital_creatives"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q003",
+      "text": "I enjoy building physical robots and electronic circuits.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "hands_on_technical",
+      "primary_trait": "hardware_technical",
+      "secondary_traits": [
+        "hands_on_crafting",
+        "innovation_ideation"
+      ],
+      "information_value": 1.7,
+      "target_departments": [
+        "events"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q004",
+      "text": "I love creating visual designs and graphics using design software.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "creative_design",
+      "primary_trait": "digital_design",
+      "secondary_traits": [
+        "visual_creativity",
+        "content_creation"
+      ],
+      "information_value": 1.6,
+      "target_departments": [
+        "digital_creatives"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q005",
+      "text": "I enjoy developing websites and web applications.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "web_development",
+      "primary_trait": "web_development",
+      "secondary_traits": [
+        "coding_aptitude",
+        "digital_design"
+      ],
+      "information_value": 1.7,
+      "target_departments": [
+        "tech"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q006",
+      "text": "I am comfortable networking with sponsors and business professionals.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "business_networking",
+      "primary_trait": "stakeholder_management",
+      "secondary_traits": [
+        "networking_ability",
+        "business_development"
+      ],
+      "information_value": 1.6,
+      "target_departments": [
+        "marketing"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q007",
+      "text": "I enjoy organizing and coordinating educational workshops.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "workshop_coordination",
+      "primary_trait": "logistics_coordination",
+      "secondary_traits": [
+        "public_interaction",
+        "event_execution"
+      ],
+      "information_value": 1.5,
+      "target_departments": [
+        "workshops"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q008",
+      "text": "I am good at analyzing data and market trends.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "analytical_skills",
+      "primary_trait": "analytical_thinking",
+      "secondary_traits": [
+        "strategic_planning",
+        "business_development"
+      ],
+      "information_value": 1.4,
+      "target_departments": [
+        "marketing"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q009",
+      "text": "I enjoy hands-on crafting and building physical installations.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "hands_on_crafting",
+      "primary_trait": "hands_on_crafting",
+      "secondary_traits": [
+        "visual_creativity",
+        "innovation_ideation"
+      ],
+      "information_value": 1.5,
+      "target_departments": [
+        "events"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q010",
+      "text": "I am skilled at creating engaging written content.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "content_creation",
+      "primary_trait": "content_creation",
+      "secondary_traits": [
+        "visual_creativity",
+        "strategic_planning"
+      ],
+      "information_value": 1.4,
+      "target_departments": [
+        "digital_creatives"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q011",
+      "text": "I enjoy working directly with event participants and attendees.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "public_interaction",
+      "primary_trait": "public_interaction",
+      "secondary_traits": [
+        "team_collaboration",
+        "event_execution"
+      ],
+      "information_value": 1.3,
+      "target_departments": [
+        "workshops",
+        "events"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q012",
+      "text": "I am comfortable with strategic planning and long-term thinking.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "strategic_planning",
+      "primary_trait": "strategic_planning",
+      "secondary_traits": [
+        "analytical_thinking",
+        "leadership_initiative"
+      ],
+      "information_value": 1.3,
+      "target_departments": [
+        "marketing"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q013",
+      "text": "I enjoy collaborating with team members on projects.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "team_collaboration",
+      "primary_trait": "team_collaboration",
+      "secondary_traits": [
+        "leadership_initiative",
+        "public_interaction"
+      ],
+      "information_value": 1.2,
+      "target_departments": [
+        "tech",
+        "events"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q014",
+      "text": "I am good at managing event logistics and execution.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "event_execution",
+      "primary_trait": "event_execution",
+      "secondary_traits": [
+        "logistics_coordination",
+        "leadership_initiative"
+      ],
+      "information_value": 1.4,
+      "target_departments": [
+        "workshops",
+        "events"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q015",
+      "text": "I enjoy innovative thinking and brainstorming new ideas.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "innovation",
+      "primary_trait": "innovation_ideation",
+      "secondary_traits": [
+        "visual_creativity",
+        "strategic_planning"
+      ],
+      "information_value": 1.3,
+      "target_departments": [
+        "digital_creatives",
+        "events"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q016",
+      "text": "I am comfortable with financial planning and budget management.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "financial_management",
+      "primary_trait": "financial_management",
+      "secondary_traits": [
+        "analytical_thinking",
+        "business_development"
+      ],
+      "information_value": 1.2,
+      "target_departments": [
+        "marketing"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q017",
+      "text": "I enjoy taking leadership roles in projects.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "leadership",
+      "primary_trait": "leadership_initiative",
+      "secondary_traits": [
+        "team_collaboration",
+        "strategic_planning"
+      ],
+      "information_value": 1.2,
+      "target_departments": [
+        "marketing",
+        "workshops"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q018",
+      "text": "I am skilled at managing processes and documentation.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "process_management",
+      "primary_trait": "process_management",
+      "secondary_traits": [
+        "analytical_thinking",
+        "logistics_coordination"
+      ],
+      "information_value": 1.1,
+      "target_departments": [
+        "tech"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q019",
+      "text": "I enjoy building business relationships and partnerships.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "business_development",
+      "primary_trait": "business_development",
+      "secondary_traits": [
+        "networking_ability",
+        "stakeholder_management"
+      ],
+      "information_value": 1.5,
+      "target_departments": [
+        "marketing"
+      ],
+      "question_stage": "adaptive"
+    },
+    {
+      "id": "q020",
+      "text": "I am comfortable speaking and presenting to audiences.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "public_speaking",
+      "primary_trait": "public_interaction",
+      "secondary_traits": [
+        "leadership_initiative",
+        "stakeholder_management"
+      ],
+      "information_value": 1.3,
+      "target_departments": [
+        "workshops",
+        "marketing"
+      ],
+      "question_stage": "adaptive"
+    }
+  ],
+  "seed_questions": [
+    {
+      "id": "seed_001",
+      "text": "I would rather spend a day coding a robot's behavior than designing promotional posters for an event.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "scale_labels": {
+        "1": "Strongly Disagree",
+        "2": "Disagree",
+        "3": "Neutral",
+        "4": "Agree",
+        "5": "Strongly Agree"
+      },
+      "category": "technical_creative_split",
+      "primary_trait": "coding_aptitude",
+      "secondary_traits": [
+        "visual_creativity",
+        "hardware_technical",
+        "digital_design"
+      ],
+      "information_value": 2.0,
+      "target_departments": [
+        "events",
+        "tech",
+        "digital_creatives"
+      ],
+      "question_stage": "seed"
+    },
+    {
+      "id": "seed_002",
+      "text": "I feel more energized when networking with industry professionals than working on solo technical projects.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "scale_labels": {
+        "1": "Strongly Disagree",
+        "2": "Disagree",
+        "3": "Neutral",
+        "4": "Agree",
+        "5": "Strongly Agree"
+      },
+      "category": "people_vs_task_orientation",
+      "primary_trait": "stakeholder_management",
+      "secondary_traits": [
+        "networking_ability",
+        "coding_aptitude",
+        "public_interaction"
+      ],
+      "information_value": 2.0,
+      "target_departments": [
+        "marketing",
+        "workshops",
+        "tech",
+        "events"
+      ],
+      "question_stage": "seed"
+    },
+    {
+      "id": "seed_003",
+      "text": "I prefer structured planning with detailed timelines over flexible, creative brainstorming sessions.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "scale_labels": {
+        "1": "Strongly Disagree",
+        "2": "Disagree",
+        "3": "Neutral",
+        "4": "Agree",
+        "5": "Strongly Agree"
+      },
+      "category": "organizational_vs_creative",
+      "primary_trait": "logistics_coordination",
+      "secondary_traits": [
+        "innovation_ideation",
+        "strategic_planning",
+        "hands_on_crafting"
+      ],
+      "information_value": 1.9,
+      "target_departments": [
+        "marketing",
+        "workshops",
+        "digital_creatives",
+        "events"
+      ],
+      "question_stage": "seed"
+    },
+    {
+      "id": "seed_004",
+      "text": "I am more motivated by securing sponsorship deals than by executing hands-on event activities.",
+      "type": "likert_5",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "scale_labels": {
+        "1": "Strongly Disagree",
+        "2": "Disagree",
+        "3": "Neutral",
+        "4": "Agree",
+        "5": "Strongly Agree"
+      },
+      "category": "business_vs_execution_focus",
+      "primary_trait": "business_development",
+      "secondary_traits": [
+        "financial_management",
+        "event_execution",
+        "hands_on_crafting"
+      ],
+      "information_value": 1.8,
+      "target_departments": [
+        "marketing",
+        "workshops",
+        "events"
+      ],
+      "question_stage": "seed"
+    }
+  ]
+}

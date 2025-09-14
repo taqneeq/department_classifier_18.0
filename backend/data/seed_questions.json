@@ -1,0 +1,81 @@
+{
+"seed_questions": 
+    [
+        {
+            "id": "seed_001",
+            "text": "I would rather spend a day coding a robot's behavior than designing promotional posters for an event.",
+            "type": "likert_5",
+            "options": ["1", "2", "3", "4", "5"],
+            "scale_labels": {
+                "1": "Strongly Disagree",
+                "2": "Disagree", 
+                "3": "Neutral",
+                "4": "Agree",
+                "5": "Strongly Agree"
+        },
+            "category": "technical_creative_split",
+            "primary_trait": "coding_aptitude",
+            "secondary_traits": ["visual_creativity", "hardware_technical", "digital_design"],
+            "information_value": 2.0,
+            "targets_departments": ["events", "tech_collab", "digital_creatives", "ihc"],
+            "question_stage": "seed"
+        },
+        {
+            "id": "seed_002", 
+            "text": "I feel more energized when networking with industry professionals than working on solo technical projects.",
+            "type": "likert_5",
+            "options": ["1", "2", "3", "4", "5"],
+            "scale_labels": {
+                "1": "Strongly Disagree",
+                "2": "Disagree",
+                "3": "Neutral", 
+                "4": "Agree",
+                "5": "Strongly Agree"
+        },
+            "category": "people_vs_task_orientation",
+            "primary_trait": "stakeholder_management",
+            "secondary_traits": ["networking_ability", "coding_aptitude", "public_interaction"],
+            "information_value": 2.0,
+            "targets_departments": ["agm", "marketing", "workshops", "tech_collab", "events"],
+            "question_stage": "seed"
+        },
+        {
+        "id": "seed_003",
+        "text": "I prefer structured planning with detailed timelines over flexible, creative brainstorming sessions.",
+        "type": "likert_5",
+        "options": ["1", "2", "3", "4", "5"],
+        "scale_labels": {
+            "1": "Strongly Disagree",
+            "2": "Disagree",
+            "3": "Neutral",
+            "4": "Agree", 
+            "5": "Strongly Agree"
+        },
+        "category": "organizational_vs_creative",
+        "primary_trait": "logistics_coordination",
+        "secondary_traits": ["innovation_ideation", "strategic_planning", "hands_on_crafting"],
+        "information_value": 1.9,
+        "targets_departments": ["administration", "logistics", "ihc", "digital_creatives", "informals"],
+        "question_stage": "seed"
+        },
+        {
+        "id": "seed_004",
+        "text": "I am more motivated by securing sponsorship deals than by executing hands-on event activities.",
+        "type": "likert_5",
+        "options": ["1", "2", "3", "4", "5"],
+        "scale_labels": {
+            "1": "Strongly Disagree",
+            "2": "Disagree",
+            "3": "Neutral",
+            "4": "Agree",
+            "5": "Strongly Agree"
+        },
+        "category": "business_vs_execution_focus",
+        "primary_trait": "business_development",
+        "secondary_traits": ["financial_management", "event_execution", "hands_on_crafting"],
+        "information_value": 1.8,
+        "targets_departments": ["marketing", "hospitality", "events", "ihc", "informals"],
+        "question_stage": "seed"
+        }
+    ]
+}

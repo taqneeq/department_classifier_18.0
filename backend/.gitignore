@@ -1,26 +1,11 @@
-# General macOS files
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Python-specific files
-*.pyc
-*.pyo
-*.pyd
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.env
-*.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+*.py[cod]
+*$py.class
+.pytest_cache/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# Virtual environment
-.Python
+# C extensions
+*.so
 
 # Distribution / packaging
 .Python
@@ -42,65 +27,30 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# pyenv
-.python-version
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre
-.pyre/
-
-# Celery
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
+# Virtual environment
 venv/
 ENV/
+env/
 env.bak/
 venv.bak/
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
 
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# Local history for JetBrains products
+# PyCharm
 .idea/
 
-# dotenv
-.env.local
-.env.*.local
+# VS Code
+.vscode/
 
-vector_index/
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Generated AI files
+*.genai
+
+
+.env

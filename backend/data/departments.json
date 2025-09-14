@@ -1,0 +1,300 @@
+{
+  "departments": [
+    {
+      "id": "tech",
+      "name": "Tech & Collaboration",
+      "description": "Build the digital infrastructure that powers Taqneeq. Develop websites, create hackathon platforms, solve complex technical challenges.",
+      "core_responsibilities": [
+        "Building and maintaining festival website",
+        "Developing online hackathon platforms",
+        "Crafting technical problem statements",
+        "Providing participant technical support"
+      ],
+      "skills_required": [
+        "Web development (frontend and backend)",
+        "Programming languages proficiency",
+        "System architecture and design"
+      ],
+      "soft_skills_required": [
+        "Technical communication",
+        "Collaborative problem-solving",
+        "Adaptability to changing requirements"
+      ],
+      "skills_perks_gained": [
+        "Advanced technical expertise development",
+        "Full-stack development experience",
+        "Complex problem-solving skills"
+      ],
+      "example_tasks": [
+        "Developing responsive festival websites",
+        "Creating hackathon submission platforms",
+        "Providing technical support to participants"
+      ],
+      "target_audience": [
+        "Developers",
+        "Problem-solvers",
+        "Technical participants"
+      ],
+      "trait_weights": {
+        "coding_aptitude": 0.95,
+        "hardware_technical": 0.7,
+        "digital_design": 0.7,
+        "web_development": 0.95,
+        "visual_creativity": 0.5,
+        "content_creation": 0.5,
+        "hands_on_crafting": 0.4,
+        "innovation_ideation": 0.8,
+        "stakeholder_management": 0.5,
+        "team_collaboration": 0.8,
+        "public_interaction": 0.6,
+        "networking_ability": 0.5,
+        "logistics_coordination": 0.6,
+        "process_management": 0.7,
+        "event_execution": 0.7,
+        "strategic_planning": 0.7,
+        "business_development": 0.3,
+        "financial_management": 0.3,
+        "leadership_initiative": 0.7,
+        "analytical_thinking": 0.8
+      }
+    },
+    {
+      "id": "digital_creatives",
+      "name": "Digital Creatives",
+      "description": "Create scroll-stopping visuals, engaging content, and serve all the vibes. The meme lords and design geeks who make Taqneeq feel alive.",
+      "core_responsibilities": [
+        "Social media content creation",
+        "Merchandise designing",
+        "Promotional materials design",
+        "Instagram posts and stories"
+      ],
+      "skills_required": [
+        "Photo editing (Canva, Figma, Photoshop)",
+        "Video editing (Premiere Pro, After Effects)",
+        "Graphic design fundamentals"
+      ],
+      "soft_skills_required": [
+        "Creative communication",
+        "Collaborative work",
+        "Visual storytelling",
+        "Trend awareness"
+      ],
+      "skills_perks_gained": [
+        "Professional portfolio building",
+        "Industry-standard software proficiency",
+        "Creative networking opportunities"
+      ],
+      "example_tasks": [
+        "Creating 'Taqneeq is Back!' reel",
+        "Designing executive recruitment posters",
+        "Guest announcement visuals"
+      ],
+      "target_audience": [
+        "Executives",
+        "Guests",
+        "Participants",
+        "Social media followers"
+      ],
+      "trait_weights": {
+        "coding_aptitude": 0.2,
+        "hardware_technical": 0.1,
+        "digital_design": 0.9,
+        "web_development": 0.3,
+        "visual_creativity": 0.95,
+        "content_creation": 0.8,
+        "hands_on_crafting": 0.4,
+        "innovation_ideation": 0.8,
+        "stakeholder_management": 0.4,
+        "team_collaboration": 0.7,
+        "public_interaction": 0.6,
+        "networking_ability": 0.5,
+        "logistics_coordination": 0.3,
+        "process_management": 0.4,
+        "event_execution": 0.5,
+        "strategic_planning": 0.6,
+        "business_development": 0.3,
+        "financial_management": 0.2,
+        "leadership_initiative": 0.5,
+        "analytical_thinking": 0.4
+      }
+    },
+    {
+      "id": "events",
+      "name": "Events",
+      "description": "The technical backbone of Taqneeq! Design and execute incredible robots, captivating technical competitions, and hands-on activities.",
+      "core_responsibilities": [
+        "Designing technical events and competitions",
+        "Building robots and interactive demonstrations",
+        "Executing hands-on technology activities"
+      ],
+      "skills_required": [
+        "Basic coding (Arduino, Python)",
+        "Hardware and electronics knowledge",
+        "Robotics and mechanical systems"
+      ],
+      "soft_skills_required": [
+        "Effective technical communication",
+        "Strong team collaboration",
+        "Problem-solving under pressure"
+      ],
+      "skills_perks_gained": [
+        "Practical robotics and AI experience",
+        "Real-world coding applications",
+        "Technical leadership development"
+      ],
+      "example_tasks": [
+        "Creating interactive robotics competitions",
+        "Building electrical and mechanical components",
+        "Programming game functionality"
+      ],
+      "target_audience": [
+        "Technical participants",
+        "Students",
+        "Technology enthusiasts"
+      ],
+      "trait_weights": {
+        "coding_aptitude": 0.9,
+        "hardware_technical": 0.95,
+        "digital_design": 0.4,
+        "web_development": 0.5,
+        "visual_creativity": 0.6,
+        "content_creation": 0.4,
+        "hands_on_crafting": 0.8,
+        "innovation_ideation": 0.9,
+        "stakeholder_management": 0.5,
+        "team_collaboration": 0.8,
+        "public_interaction": 0.7,
+        "networking_ability": 0.5,
+        "logistics_coordination": 0.6,
+        "process_management": 0.6,
+        "event_execution": 0.8,
+        "strategic_planning": 0.6,
+        "business_development": 0.3,
+        "financial_management": 0.3,
+        "leadership_initiative": 0.7,
+        "analytical_thinking": 0.7
+      }
+    },
+    {
+      "id": "marketing",
+      "name": "Marketing",
+      "description": "Drive strategic sponsorships and partnerships. Develop compelling proposals, analyze market trends, and build relationships that fuel Taqneeq's growth.",
+      "core_responsibilities": [
+        "Securing sponsorships and partnerships",
+        "Developing strategic proposals",
+        "Building business relationships",
+        "Market analysis"
+      ],
+      "skills_required": [
+        "Data analysis proficiency",
+        "Market research capabilities",
+        "Presentation and proposal writing"
+      ],
+      "soft_skills_required": [
+        "Relationship-building expertise",
+        "Strategic thinking",
+        "Persuasive communication",
+        "Negotiation skills"
+      ],
+      "skills_perks_gained": [
+        "Strategic business thinking",
+        "Data-driven decision making",
+        "Brand management experience",
+        "Professional networking expansion"
+      ],
+      "example_tasks": [
+        "Developing comprehensive marketing strategies",
+        "Analyzing competitor trends",
+        "Building strategic partnerships"
+      ],
+      "target_audience": [
+        "Sponsors",
+        "Business partners",
+        "Industry stakeholders"
+      ],
+      "trait_weights": {
+        "coding_aptitude": 0.2,
+        "hardware_technical": 0.1,
+        "digital_design": 0.4,
+        "web_development": 0.2,
+        "visual_creativity": 0.5,
+        "content_creation": 0.7,
+        "hands_on_crafting": 0.2,
+        "innovation_ideation": 0.6,
+        "stakeholder_management": 0.9,
+        "team_collaboration": 0.7,
+        "public_interaction": 0.7,
+        "networking_ability": 0.9,
+        "logistics_coordination": 0.6,
+        "process_management": 0.7,
+        "event_execution": 0.6,
+        "strategic_planning": 0.9,
+        "business_development": 0.95,
+        "financial_management": 0.8,
+        "leadership_initiative": 0.8,
+        "analytical_thinking": 0.8
+      }
+    },
+    {
+      "id": "workshops",
+      "name": "Workshops",
+      "description": "Curate cutting-edge learning experiences. Connect with industry experts, showcase innovative tech products, and create educational opportunities.",
+      "core_responsibilities": [
+        "Curating workshop topics",
+        "Sourcing industry experts",
+        "Managing workshop logistics",
+        "Promoting workshops"
+      ],
+      "skills_required": [
+        "Event coordination",
+        "Industry networking",
+        "Educational content curation"
+      ],
+      "soft_skills_required": [
+        "Authentic networking",
+        "Confidence in professional interactions",
+        "Organizational abilities"
+      ],
+      "skills_perks_gained": [
+        "Industry networking",
+        "Leadership experience",
+        "Educational event portfolio",
+        "Technology exposure"
+      ],
+      "example_tasks": [
+        "Reaching out to tech companies",
+        "Organizing technology displays",
+        "Coordinating with marketing",
+        "Facilitating participant engagement"
+      ],
+      "target_audience": [
+        "Workshop hosts",
+        "Tech companies",
+        "Participants",
+        "Industry professionals"
+      ],
+      "trait_weights": {
+        "coding_aptitude": 0.3,
+        "hardware_technical": 0.4,
+        "digital_design": 0.3,
+        "web_development": 0.2,
+        "visual_creativity": 0.5,
+        "content_creation": 0.6,
+        "hands_on_crafting": 0.4,
+        "innovation_ideation": 0.7,
+        "stakeholder_management": 0.8,
+        "team_collaboration": 0.7,
+        "public_interaction": 0.8,
+        "networking_ability": 0.9,
+        "logistics_coordination": 0.7,
+        "process_management": 0.6,
+        "event_execution": 0.7,
+        "strategic_planning": 0.7,
+        "business_development": 0.6,
+        "financial_management": 0.4,
+        "leadership_initiative": 0.8,
+        "analytical_thinking": 0.5
+      }
+    }
+  ]
+}
