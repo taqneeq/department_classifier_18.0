@@ -9,8 +9,9 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from core.data_loader import TaqneeqQuestion, TaqneeqDepartment
 from core.data_loader import TRAIT_NAMES
-logger = logging.getLogger(__name__)
 
+
+logger = logging.getLogger(__name__)
 class SessionState(str, Enum):
     """Session states for tracking progress"""
     INITIALIZED = "initialized"
@@ -228,13 +229,9 @@ class TaqneeqSessionManager:
         
         return sorted_depts[:top_k]
 
-
-# Add this to core/session_manager.py or create a separate dependencies.py file
-
 from core.session_manager import TaqneeqSessionManager
 from core.data_loader import load_departments
 
-# Global session manager instance
 _session_manager_instance = None
 
 def get_session_manager() -> TaqneeqSessionManager:

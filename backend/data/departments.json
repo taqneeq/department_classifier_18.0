@@ -2,7 +2,7 @@
   "departments": [
     {
       "id": "tech",
-      "name": "Tech & Collaboration",
+      "name": "Technology",
       "description": "Build the digital infrastructure that powers Taqneeq. Develop websites, create hackathon platforms, solve complex technical challenges.",
       "core_responsibilities": [
         "Building and maintaining festival website",

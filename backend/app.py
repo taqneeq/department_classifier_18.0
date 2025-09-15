@@ -224,12 +224,12 @@ async def root():
     </head>
     <body>
         <div class="header">
-            <h1>🎯 Taqneeq Department Classifier</h1>
+            <h1>Taqneeq Department Classifier</h1>
             <p>Intelligent department matching system for Taqneeq techfest participants</p>
         </div>
         
         <div class="section">
-            <h2>📋 Quick Start</h2>
+            <h2>Quick Start</h2>
             <p>Use the classification API to find your perfect Taqneeq department match:</p>
             <div class="endpoint"><strong>POST</strong> /api/v1/classification/start - Start classification</div>
             <div class="endpoint"><strong>POST</strong> /api/v1/classification/answer - Submit answers</div>
@@ -237,30 +237,30 @@ async def root():
         </div>
         
         <div class="section">
-            <h2>🏢 Departments Available</h2>
+            <h2>Departments Available</h2>
             <p>14 specialized departments including Events, Digital Creatives, Tech & Collab, Marketing, and more.</p>
             <div class="endpoint"><strong>GET</strong> /api/v1/departments - List all departments</div>
             <div class="endpoint"><strong>GET</strong> /api/v1/departments/search?q=tech - Search departments</div>
         </div>
         
         <div class="section">
-            <h2>📚 API Documentation</h2>
+            <h2>API Documentation</h2>
             <p>
-                <a href="/docs" target="_blank">📖 Interactive API Documentation (Swagger UI)</a><br>
-                <a href="/redoc" target="_blank">📄 Alternative Documentation (ReDoc)</a>
+                <a href="/docs" target="_blank">Interactive API Documentation (Swagger UI)</a><br>
+                <a href="/redoc" target="_blank">Alternative Documentation (ReDoc)</a>
             </p>
         </div>
         
         <div class="section">
             <h2>⚡ System Status</h2>
             <p>
-                <a href="/api/v1/health">🔍 Health Check</a><br>
-                <a href="/api/v1/stats">📊 Usage Statistics</a>
+                <a href="/api/v1/health">Health Check</a><br>
+                <a href="/api/v1/stats">Usage Statistics</a>
             </p>
         </div>
         
         <div class="section">
-            <h2>🔬 How It Works</h2>
+            <h2>How It Works</h2>
             <p>This system uses:</p>
             <ul>
                 <li><strong>Bayesian Inference</strong> - Adaptive belief updating based on responses</li>
@@ -322,11 +322,11 @@ async def startup_event():
 def main():
     """Main entry point for running the application"""
     
-    print("🎯 Starting Taqneeq Department Classifier...")
-    print(f"📊 Classification System: Bayesian inference with information gain")
-    print(f"🧠 Features: 20 traits, adaptive questioning, RAG explanations")
-    print(f"🌐 Server: http://{config.HOST}:{config.PORT}")
-    print(f"📖 API Docs: http://{config.HOST}:{config.PORT}/docs")
+    print("Starting Taqneeq Department Classifier...")
+    print(f"Classification System: Bayesian inference with information gain")
+    print(f"Features: 20 traits, adaptive questioning, RAG explanations")
+    print(f"Server: http://{config.HOST}:{config.PORT}")
+    print(f"API Docs: http://{config.HOST}:{config.PORT}/docs")
     print("=" * 60)
     
     try:

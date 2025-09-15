@@ -78,7 +78,7 @@ async def list_departments(
             detail="Failed to load departments"
         )
 
-# IMPORTANT: Search route MUST come before {department_id} route to avoid conflicts
+
 @router.get("/departments/search", response_model=List[dict])
 async def search_departments(
     q: str = Query(..., min_length=2, description="Search query"),
@@ -141,7 +141,7 @@ async def search_departments(
             detail="Failed to search departments"
         )
 
-# This route MUST come after the search route
+
 @router.get("/departments/{department_id}", response_model=dict)
 async def get_department_details(
     department_id: str,
