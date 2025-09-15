@@ -54,3 +54,4 @@ venv.bak/
 
 
 .env
+data/questions.json
