@@ -2,110 +2,113 @@
   "departments": [
     {
       "id": "tech",
-      "name": "Technology",
-      "description": "Build the digital infrastructure that powers Taqneeq. Develop websites, create hackathon platforms, solve complex technical challenges.",
+      "name": "Tech and Collaboration",
+      "description": "Build and maintain the official festival website and online hackathon platform. Craft complex problem statements for the hackathon and provide technical assistance to participants.",
       "core_responsibilities": [
-        "Building and maintaining festival website",
-        "Developing online hackathon platforms",
-        "Crafting technical problem statements",
-        "Providing participant technical support"
+        "Technical Development: Build and maintain the official festival website and online hackathon platform",
+        "Problem Solving: Craft complex problem statements for the hackathon and provide technical assistance to participants",
+        "Event Management: Oversee the technical aspects of the event, ensuring a smooth and engaging experience",
+        "Team Collaboration: Work closely with other teams to integrate technical solutions and streamline processes"
       ],
       "skills_required": [
-        "Web development (frontend and backend)",
-        "Programming languages proficiency",
-        "System architecture and design"
+        "Technical Proficiency: Strong understanding of web development (frontend and backend), UI/UX design, and relevant programming languages",
+        "Problem-Solving: Ability to identify and resolve technical challenges",
+        "Teamwork: Effective collaboration with team members and other departments",
+        "Adaptability: Flexibility to adapt to changing requirements and timelines"
       ],
       "soft_skills_required": [
-        "Technical communication",
-        "Collaborative problem-solving",
+        "Technical communication with participants",
+        "Cross-functional collaboration",
+        "Problem-solving under pressure",
         "Adaptability to changing requirements"
       ],
       "skills_perks_gained": [
-        "Advanced technical expertise development",
-        "Full-stack development experience",
-        "Complex problem-solving skills"
+        "Technical Expertise: Hands-on experience with the latest tools and technologies",
+        "Project Management: Skills in planning, organizing, and executing technical projects",
+        "Problem-Solving: Enhanced ability to identify and solve complex problems",
+        "Portfolio Building: Real-world experience and projects to showcase your skills"
       ],
       "example_tasks": [
-        "Developing responsive festival websites",
-        "Creating hackathon submission platforms",
-        "Providing technical support to participants"
+        "Develop and maintain the festival website",
+        "Create an online platform for the hackathon, including submission and judging systems",
+        "Assist participants with technical queries and troubleshooting",
+        "Collaborate with the marketing team to integrate technical elements into promotional materials"
       ],
       "target_audience": [
-        "Developers",
-        "Problem-solvers",
-        "Technical participants"
+        "Tech-savvy individuals interested in web development, UI/UX design, and backend development",
+        "Problem-solvers who enjoy working on challenging projects",
+        "Team players who can collaborate effectively with others"
       ],
       "trait_weights": {
         "coding_aptitude": 0.95,
-        "hardware_technical": 0.7,
+        "hardware_technical": 0.6,
         "digital_design": 0.7,
-        "web_development": 0.95,
-        "visual_creativity": 0.5,
+        "web_development": 0.9,
+        "visual_creativity": 0.4,
         "content_creation": 0.5,
-        "hands_on_crafting": 0.4,
-        "innovation_ideation": 0.8,
-        "stakeholder_management": 0.5,
-        "team_collaboration": 0.8,
+        "hands_on_crafting": 0.3,
+        "innovation_ideation": 0.85,
+        "stakeholder_management": 0.7,
+        "team_collaboration": 0.9,
         "public_interaction": 0.6,
-        "networking_ability": 0.5,
-        "logistics_coordination": 0.6,
-        "process_management": 0.7,
+        "networking_ability": 0.6,
+        "logistics_coordination": 0.7,
+        "process_management": 0.8,
         "event_execution": 0.7,
-        "strategic_planning": 0.7,
-        "business_development": 0.3,
+        "strategic_planning": 0.8,
+        "business_development": 0.4,
         "financial_management": 0.3,
-        "leadership_initiative": 0.7,
-        "analytical_thinking": 0.8
+        "leadership_initiative": 0.8,
+        "analytical_thinking": 0.85
       }
     },
     {
       "id": "digital_creatives",
       "name": "Digital Creatives",
-      "description": "Create scroll-stopping visuals, engaging content, and serve all the vibes. The meme lords and design geeks who make Taqneeq feel alive.",
+      "description": "The ultimate hype crew for Taqneeq! We're the ones making your feed pop, your stories scroll-stopping, and every single post scream, 'you gotta be here!' From visuals that slap to captions that hit just right, we're here to serve all the vibes.",
       "core_responsibilities": [
-        "Social media content creation",
-        "Merchandise designing",
-        "Promotional materials design",
-        "Instagram posts and stories"
+        "Social Media Content - Create engaging and eye-catching posts and stories for our Instagram page",
+        "Merchandise Designing - Design badges, t-shirts, and other merch in collaboration with other departments",
+        "Promotional Materials - Design posters, banners, and other visuals for online/offline marketing"
       ],
       "skills_required": [
-        "Photo editing (Canva, Figma, Photoshop)",
-        "Video editing (Premiere Pro, After Effects)",
-        "Graphic design fundamentals"
+        "Photo Editing Software - Canva, Figma, Photoshop, Illustrator",
+        "Video Editing Software - Premiere Pro, After Effects",
+        "3D Animation - Blender",
+        "Graphic Design Sense - An understanding of basic typography, layout design, color theory, etc."
       ],
       "soft_skills_required": [
-        "Creative communication",
-        "Collaborative work",
-        "Visual storytelling",
-        "Trend awareness"
+        "Communication Skills - Be able to convey your ideas in a concise and put-together manner",
+        "Collaborative Work - Ability to work in a team and effectively contribute to common projects"
       ],
       "skills_perks_gained": [
-        "Professional portfolio building",
-        "Industry-standard software proficiency",
-        "Creative networking opportunities"
+        "Portfolio Building - Create real-world projects to showcase in a professional portfolio",
+        "Technical Proficiency - Gain hands-on experience with industry-standard design software",
+        "Networking Opportunities - Collaborate closely with supervisors, peers, and other departments like SMCW to amplify reach and impact"
       ],
       "example_tasks": [
-        "Creating 'Taqneeq is Back!' reel",
-        "Designing executive recruitment posters",
-        "Guest announcement visuals"
+        "Creating a 'Taqneeq is Back!' reel for Taqneeq in collaboration with the SMCW department",
+        "Designing posters for Executive recruitment",
+        "Working with departments like Artist and Guest Management for guest announcements or Hospitality for event promotions"
       ],
       "target_audience": [
-        "Executives",
-        "Guests",
-        "Participants",
-        "Social media followers"
+        "Executives (For exec recruitment content)",
+        "Guests and Sponsors (For Instagram and general TQ content)",
+        "Participants for Taqneeq's events such as CyberCypher",
+        "Attendees",
+        "Internal Collaborations - Cross-departmental partners like SMCW, Hospitality, and Artist and Guest Management"
       ],
       "trait_weights": {
         "coding_aptitude": 0.2,
         "hardware_technical": 0.1,
-        "digital_design": 0.9,
+        "digital_design": 0.95,
         "web_development": 0.3,
         "visual_creativity": 0.95,
         "content_creation": 0.8,
-        "hands_on_crafting": 0.4,
-        "innovation_ideation": 0.8,
+        "hands_on_crafting": 0.5,
+        "innovation_ideation": 0.85,
         "stakeholder_management": 0.4,
-        "team_collaboration": 0.7,
+        "team_collaboration": 0.8,
         "public_interaction": 0.6,
         "networking_ability": 0.5,
         "logistics_coordination": 0.3,
@@ -114,43 +117,116 @@
         "strategic_planning": 0.6,
         "business_development": 0.3,
         "financial_management": 0.2,
-        "leadership_initiative": 0.5,
+        "leadership_initiative": 0.6,
         "analytical_thinking": 0.4
+      }
+    },
+    {
+      "id": "smcw",
+      "name": "Social Media and Content Writing",
+      "description": "The voice of Taqneeq, responsible for building and engaging our online community across multiple platforms. From crafting catchy Instagram reels to drafting formal Memoranda of Understanding, this department provides a diverse and enriching experience in content creation and digital strategy.",
+      "core_responsibilities": [
+        "Managing Taqneeq's social media presence across Instagram, Reddit, Twitter, and LinkedIn",
+        "Creating engaging content, including Instagram reels and stories, tailored to each platform's audience",
+        "Developing and implementing social media strategies to increase event visibility and participant engagement",
+        "Drafting and finalizing Memoranda of Understanding (MOUs) for business development and corporate relations",
+        "Creating promotional messages for distribution across various channels, including WhatsApp",
+        "Documenting Taqneeq through photography and videography, capturing key moments and highlights"
+      ],
+      "skills_required": [
+        "Basic photography and videography skills",
+        "Familiarity with social media platforms (Instagram, Reddit, Twitter, LinkedIn)",
+        "Basic understanding of social media algorithms and best practices"
+      ],
+      "soft_skills_required": [
+        "Excellent written and verbal communication skills",
+        "Creativity and the ability to generate engaging content",
+        "Strong organizational and time-management skills",
+        "Ability to work collaboratively within a team",
+        "Adaptability and willingness to learn new platforms and strategies",
+        "Professionalism and attention to detail, especially for MOU creation"
+      ],
+      "skills_perks_gained": [
+        "Multi-Platform Digital Marketing Expertise: Gain practical experience managing social media across diverse platforms",
+        "Professional Content Creation: Develop skills in writing for various purposes, from catchy social media posts to formal legal documents",
+        "Understanding of Social Media Algorithms: Learn how to optimize content for maximum reach and engagement",
+        "Enhanced Creativity and Storytelling Abilities: Practice crafting compelling narratives and visuals for different audiences",
+        "Experience in Business Development and Corporate Relations: Gain exposure to the process of drafting and finalizing MOUs",
+        "Portfolio Building: Showcase your work and accomplishments through the content you create"
+      ],
+      "example_tasks": [
+        "Creating a weekly content calendar for different social media platforms",
+        "Filming and editing short videos for Instagram Reels",
+        "Responding to comments and messages on social media",
+        "Drafting an MOU with a potential sponsor",
+        "Writing creative promotional messages for WhatsApp groups",
+        "Taking photos and videos of events and activities at Taqneeq"
+      ],
+      "target_audience": [
+        "Students and other attendees of Taqneeq",
+        "Potential sponsors and partners",
+        "The wider online community interested in technology and hackathons"
+      ],
+      "trait_weights": {
+        "coding_aptitude": 0.2,
+        "hardware_technical": 0.1,
+        "digital_design": 0.6,
+        "web_development": 0.3,
+        "visual_creativity": 0.7,
+        "content_creation": 0.95,
+        "hands_on_crafting": 0.2,
+        "innovation_ideation": 0.8,
+        "stakeholder_management": 0.6,
+        "team_collaboration": 0.7,
+        "public_interaction": 0.8,
+        "networking_ability": 0.7,
+        "logistics_coordination": 0.4,
+        "process_management": 0.7,
+        "event_execution": 0.5,
+        "strategic_planning": 0.8,
+        "business_development": 0.5,
+        "financial_management": 0.3,
+        "leadership_initiative": 0.6,
+        "analytical_thinking": 0.7
       }
     },
     {
       "id": "events",
       "name": "Events",
-      "description": "The technical backbone of Taqneeq! Design and execute incredible robots, captivating technical competitions, and hands-on activities.",
+      "description": "We are Taqneeq! All those incredible robots and captivating technical events you see at Taqneeq are the brainchild of the Events Department! We are the backbone of this technical fest!",
       "core_responsibilities": [
-        "Designing technical events and competitions",
-        "Building robots and interactive demonstrations",
-        "Executing hands-on technology activities"
+        "Designing and executing a variety of engaging activities, projects, and competitions that showcase and promote new technologies",
+        "Making technology accessible and enjoyable for all participants and visitors, regardless of their background or level of expertise",
+        "Creating games and showcase projects involving electrical components, coding for game functionality, and building physical structures"
       ],
       "skills_required": [
-        "Basic coding (Arduino, Python)",
-        "Hardware and electronics knowledge",
-        "Robotics and mechanical systems"
+        "Basic coding background, primarily in Arduino",
+        "Fundamental working knowledge of Python"
       ],
       "soft_skills_required": [
-        "Effective technical communication",
-        "Strong team collaboration",
-        "Problem-solving under pressure"
+        "Effective communication skills",
+        "Good team spirit and collaboration abilities",
+        "Problem-solving skills, especially under time constraints",
+        "Strong logistical planning and creativity",
+        "Willingness to learn and adapt"
       ],
       "skills_perks_gained": [
-        "Practical robotics and AI experience",
-        "Real-world coding applications",
-        "Technical leadership development"
+        "Practical insights into robotics, coding, AI, and other tech areas",
+        "Hands-on experience with mechanical, software, and electrical components",
+        "Leadership experience during the tech fest",
+        "Real-life implementation of technical learnings from lectures"
       ],
       "example_tasks": [
-        "Creating interactive robotics competitions",
-        "Building electrical and mechanical components",
-        "Programming game functionality"
+        "Creating games and showcase projects",
+        "Working on electrical components",
+        "Coding for game functionality",
+        "Building the physical structures required for each game"
       ],
       "target_audience": [
-        "Technical participants",
-        "Students",
-        "Technology enthusiasts"
+        "Logistics: Arranging components required for the games",
+        "Technicals: Implementing advanced software solutions",
+        "Digital Creatives: Enhancing the presentation of games and projects",
+        "Visitors, students, participants, and the general public during main event days"
       ],
       "trait_weights": {
         "coding_aptitude": 0.9,
@@ -159,58 +235,46 @@
         "web_development": 0.5,
         "visual_creativity": 0.6,
         "content_creation": 0.4,
-        "hands_on_crafting": 0.8,
+        "hands_on_crafting": 0.85,
         "innovation_ideation": 0.9,
         "stakeholder_management": 0.5,
-        "team_collaboration": 0.8,
-        "public_interaction": 0.7,
+        "team_collaboration": 0.85,
+        "public_interaction": 0.8,
         "networking_ability": 0.5,
-        "logistics_coordination": 0.6,
+        "logistics_coordination": 0.7,
         "process_management": 0.6,
-        "event_execution": 0.8,
+        "event_execution": 0.9,
         "strategic_planning": 0.6,
         "business_development": 0.3,
         "financial_management": 0.3,
-        "leadership_initiative": 0.7,
-        "analytical_thinking": 0.7
+        "leadership_initiative": 0.8,
+        "analytical_thinking": 0.75
       }
     },
     {
       "id": "marketing",
       "name": "Marketing",
-      "description": "Drive strategic sponsorships and partnerships. Develop compelling proposals, analyze market trends, and build relationships that fuel Taqneeq's growth.",
+      "description": "Bringing in Sponsorships: Identify potential partners, develop compelling proposals, build relationships, and effectively communicate mutual benefits to secure and manage sponsorship agreements.",
       "core_responsibilities": [
-        "Securing sponsorships and partnerships",
-        "Developing strategic proposals",
-        "Building business relationships",
-        "Market analysis"
+        "Bringing in Sponsorships: Identify potential partners, develop compelling proposals, build relationships, and effectively communicate mutual benefits to secure and manage sponsorship agreements"
       ],
       "skills_required": [
-        "Data analysis proficiency",
-        "Market research capabilities",
-        "Presentation and proposal writing"
+        "Data Analysis Proficiency: Assess market trends, measure campaign effectiveness, and tailor sponsorship proposals to potential partners"
       ],
       "soft_skills_required": [
-        "Relationship-building expertise",
-        "Strategic thinking",
-        "Persuasive communication",
-        "Negotiation skills"
+        "Relationship-Building Skills: Establish trust and rapport with potential sponsors and maintain long-term partnerships"
       ],
       "skills_perks_gained": [
-        "Strategic business thinking",
-        "Data-driven decision making",
-        "Brand management experience",
-        "Professional networking expansion"
+        "Strategic Thinking and Effective Communication: Build the ability to convey value and engage stakeholders effectively",
+        "Data-Driven Decision-Making and Customer Insights: Use data to drive targeted, impactful strategies",
+        "Brand Management and Collaboration: Learn to work cross-functionally to align brand goals and drive business growth",
+        "Networking Opportunities: Develop valuable industry connections, especially on professional platforms like LinkedIn, to foster future sponsorships and partnerships"
       ],
       "example_tasks": [
-        "Developing comprehensive marketing strategies",
-        "Analyzing competitor trends",
-        "Building strategic partnerships"
+        "Developing marketing strategies, analyzing market trends, managing budgets, overseeing campaign execution, building partnerships, monitoring performance metrics, and leading brand development"
       ],
       "target_audience": [
-        "Sponsors",
-        "Business partners",
-        "Industry stakeholders"
+        "Primary Interaction: Sponsors and potential partners"
       ],
       "trait_weights": {
         "coding_aptitude": 0.2,
@@ -221,57 +285,53 @@
         "content_creation": 0.7,
         "hands_on_crafting": 0.2,
         "innovation_ideation": 0.6,
-        "stakeholder_management": 0.9,
+        "stakeholder_management": 0.95,
         "team_collaboration": 0.7,
         "public_interaction": 0.7,
-        "networking_ability": 0.9,
+        "networking_ability": 0.95,
         "logistics_coordination": 0.6,
         "process_management": 0.7,
         "event_execution": 0.6,
         "strategic_planning": 0.9,
         "business_development": 0.95,
-        "financial_management": 0.8,
+        "financial_management": 0.85,
         "leadership_initiative": 0.8,
-        "analytical_thinking": 0.8
+        "analytical_thinking": 0.85
       }
     },
     {
       "id": "workshops",
       "name": "Workshops",
-      "description": "Curate cutting-edge learning experiences. Connect with industry experts, showcase innovative tech products, and create educational opportunities.",
+      "description": "Curate exciting tech topics that attract participants. Connect with industry experts to lead workshops and showcase innovative tech products to engage attendees.",
       "core_responsibilities": [
-        "Curating workshop topics",
-        "Sourcing industry experts",
-        "Managing workshop logistics",
-        "Promoting workshops"
+        "Curating Workshop Topics: Identify exciting tech topics that attract participants",
+        "Sourcing and Onboarding Workshop Hosts: Connect with industry experts to lead workshops",
+        "Event Management: Oversee logistics and schedules to ensure smooth execution",
+        "Promotion and Outreach: Collaborate with marketing to promote workshops across various platforms",
+        "Tech Product Sourcing: Seek out and showcase innovative tech products (e.g., VR headsets, robotics) to engage attendees"
       ],
       "skills_required": [
-        "Event coordination",
-        "Industry networking",
-        "Educational content curation"
+        "No specific Skills needed; just bring an open mind and a curiosity to learn!"
       ],
       "soft_skills_required": [
-        "Authentic networking",
-        "Confidence in professional interactions",
-        "Organizational abilities"
+        "Authenticity: Be yourself and develop confidence in networking and engaging with industry professionals"
       ],
       "skills_perks_gained": [
-        "Industry networking",
-        "Leadership experience",
-        "Educational event portfolio",
-        "Technology exposure"
+        "Networking: Build connections with industry professionals and tech enthusiasts",
+        "Leadership Experience: Manage projects and events from start to finish",
+        "Portfolio Building: Create a strong record of organized events and tech displays",
+        "Hands-on Tech Exposure: Gain experience with trending tech products and devices"
       ],
       "example_tasks": [
-        "Reaching out to tech companies",
-        "Organizing technology displays",
-        "Coordinating with marketing",
-        "Facilitating participant engagement"
+        "Reach out to companies to source or borrow unique tech products",
+        "Organize the display area for an inviting setup",
+        "Collaborate with the marketing team for effective promotion",
+        "Engage with participants to maintain excitement about workshops and displays"
       ],
       "target_audience": [
-        "Workshop hosts",
-        "Tech companies",
-        "Participants",
-        "Industry professionals"
+        "Workshop hosts and tech product providers",
+        "Participants interested in workshops and tech displays",
+        "Close coordination with marketing and logistics for seamless workshop and tech showcase execution"
       ],
       "trait_weights": {
         "coding_aptitude": 0.3,
@@ -281,19 +341,493 @@
         "visual_creativity": 0.5,
         "content_creation": 0.6,
         "hands_on_crafting": 0.4,
-        "innovation_ideation": 0.7,
-        "stakeholder_management": 0.8,
-        "team_collaboration": 0.7,
-        "public_interaction": 0.8,
-        "networking_ability": 0.9,
+        "innovation_ideation": 0.8,
+        "stakeholder_management": 0.85,
+        "team_collaboration": 0.8,
+        "public_interaction": 0.85,
+        "networking_ability": 0.95,
         "logistics_coordination": 0.7,
         "process_management": 0.6,
-        "event_execution": 0.7,
+        "event_execution": 0.8,
         "strategic_planning": 0.7,
         "business_development": 0.6,
         "financial_management": 0.4,
-        "leadership_initiative": 0.8,
+        "leadership_initiative": 0.85,
         "analytical_thinking": 0.5
+      }
+    },
+    {
+      "id": "agm",
+      "name": "Artist and Guest Management",
+      "description": "Managing all communication with artists, guest speakers, and their teams. Ensuring comfortable accommodations, transportation, and amenities for artists and guests while maintaining positive relations for future collaborations.",
+      "core_responsibilities": [
+        "Coordinating with Artists and Guests: Managing all communication with artists, guest speakers, and their teams to confirm schedules, arrival details, and special requirements",
+        "Organizing Hospitality & Accommodation: Ensuring comfortable accommodations, transportation, and amenities for artists and guests",
+        "Scheduling & Logistics: Preparing detailed event schedules, coordinating entry/exit points, stage timings, and organizing green room requirements",
+        "Event Day Assistance: Accompanying artists and guests during the event, troubleshooting any issues, and managing smooth transitions to maintain timelines",
+        "Post-Event Engagement: Gathering feedback and maintaining positive relations for potential future collaborations"
+      ],
+      "skills_required": [
+        "Scheduling Software: Familiarity with tools like Google Calendar or event management platforms (Trello, Airtable)",
+        "Documentation & Communication Tools: Proficiency with MS Office, Google Docs, Google Workspace for organizing guest profiles and itineraries",
+        "Basic Presentation & Research Skills: Conducting background research on artists and compiling info packs. Usage of various extensions for research purposes (SignalHire)"
+      ],
+      "soft_skills_required": [
+        "Communication: Clear, respectful, and effective communication skills to interact with artists, team members, and sponsors",
+        "Teamwork: Ability to work closely with other departments, like Stage Management and Hospitality, to ensure seamless guest experiences",
+        "Problem-Solving & Adaptability: Quick thinking and flexibility to handle last-minute changes or issues",
+        "Attention to Detail: Ensuring every detail—from schedules to dietary preferences—is carefully managed",
+        "Time Management: Maintaining schedules and adapting to time-sensitive tasks efficiently"
+      ],
+      "skills_perks_gained": [
+        "Networking: Building connections with artists, managers, and industry professionals, which is crucial for fostering future opportunities—especially on professional platforms like LinkedIn",
+        "Event Management Experience: Hands-on experience in managing high-profile guests in a live event setting",
+        "Leadership & Decision-Making: Developing confidence in making quick, sound decisions under pressure",
+        "Conflict Resolution & Negotiation Skills: Learning techniques for negotiating timelines, addressing complaints, and managing expectations"
+      ],
+      "example_tasks": [
+        "Creating Artist Schedules: Preparing and distributing daily schedules with arrival, performance, and departure times",
+        "Coordinating Arrival Logistics: Meeting artists upon arrival, arranging for their transportation, and briefing them on event details",
+        "Handling Last-Minute Requests: Addressing any last-minute requirements from artists (e.g., green room amenities, technical needs)",
+        "Liaising with Security: Ensuring artists and guests have the necessary passes and security clearances"
+      ],
+      "target_audience": [
+        "Primary Interaction Groups: Artists, guest speakers, sponsors, vendors, and internal departments (Hospitality, Security)"
+      ],
+      "trait_weights": {
+        "coding_aptitude": 0.1,
+        "hardware_technical": 0.1,
+        "digital_design": 0.3,
+        "web_development": 0.2,
+        "visual_creativity": 0.4,
+        "content_creation": 0.5,
+        "hands_on_crafting": 0.3,
+        "innovation_ideation": 0.5,
+        "stakeholder_management": 0.95,
+        "team_collaboration": 0.85,
+        "public_interaction": 0.8,
+        "networking_ability": 0.9,
+        "logistics_coordination": 0.9,
+        "process_management": 0.85,
+        "event_execution": 0.9,
+        "strategic_planning": 0.75,
+        "business_development": 0.6,
+        "financial_management": 0.5,
+        "leadership_initiative": 0.85,
+        "analytical_thinking": 0.6
+      }
+    },
+    {
+      "id": "hospitality",
+      "name": "Hospitality",
+      "description": "Securing in-kind sponsorships and deals for event essentials, building strong relationships with sponsors and vendors, and ensuring participant comfort throughout the event.",
+      "core_responsibilities": [
+        "Securing in-kind sponsorships and deals for event essentials, including food, beverages, merchandise, and prizes for participants",
+        "Building and maintaining strong relationships with potential sponsors and vendors",
+        "Managing logistics on event days to ensure smooth distribution of food, snacks, and other essentials",
+        "Acknowledging and promoting sponsors according to agreements, ensuring their contributions are highlighted",
+        "Addressing participant needs and providing comfort throughout the event"
+      ],
+      "skills_required": [
+        "Proficiency in MS Office (Word, Excel) for tracking inventory, sponsor commitments, and logistics",
+        "Familiarity with event management tools (e.g., Google Sheets, Airtable) for organizing resources and contact management"
+      ],
+      "soft_skills_required": [
+        "Communication: Engaging with sponsors, vendors, and event attendees",
+        "Negotiation: Securing favorable deals and managing sponsor expectations",
+        "Problem-Solving: Resolving on-the-spot issues and ensuring a smooth hospitality experience",
+        "Teamwork: Coordinating with other departments to align hospitality efforts with event flow"
+      ],
+      "skills_perks_gained": [
+        "Networking: Opportunities to interact with sponsors, vendors, and industry professionals",
+        "Event Management: Hands-on experience organizing and managing hospitality for large groups",
+        "Portfolio Building: Documenting successes in event logistics and sponsor relations",
+        "Negotiation Skills: Practical experience in securing deals and partnerships"
+      ],
+      "example_tasks": [
+        "Researching and reaching out to brands and local businesses for in-kind contributions",
+        "Drafting sponsorship proposals, negotiating terms, and managing sponsor relations",
+        "Setting up food and beverage stations, ensuring continuous availability throughout the event",
+        "Ensuring all sponsor branding requirements are met as per agreements"
+      ],
+      "target_audience": [
+        "Sponsors: Engaging businesses interested in in-kind contributions",
+        "Participants: Ensuring a comfortable experience, addressing needs, and providing amenities",
+        "Vendors: Maintaining partnerships for essential event provisions"
+      ],
+      "trait_weights": {
+        "coding_aptitude": 0.1,
+        "hardware_technical": 0.1,
+        "digital_design": 0.2,
+        "web_development": 0.1,
+        "visual_creativity": 0.3,
+        "content_creation": 0.4,
+        "hands_on_crafting": 0.5,
+        "innovation_ideation": 0.4,
+        "stakeholder_management": 0.8,
+        "team_collaboration": 0.85,
+        "public_interaction": 0.9,
+        "networking_ability": 0.7,
+        "logistics_coordination": 0.85,
+        "process_management": 0.8,
+        "event_execution": 0.85,
+        "strategic_planning": 0.6,
+        "business_development": 0.7,
+        "financial_management": 0.7,
+        "leadership_initiative": 0.7,
+        "analytical_thinking": 0.5
+      }
+    },
+    {
+      "id": "photography",
+      "name": "Photography",
+      "description": "Visually documenting Taqneeq through high-quality photos and videos that capture each moment of innovation and enthusiasm. Creating a comprehensive visual record for promotional purposes and showcasing Taqneeq's success.",
+      "core_responsibilities": [
+        "Event Coverage: Capturing key moments at all Taqneeq events, such as workshops, competitions, and guest lectures, to highlight the event's technological spirit and engagement",
+        "Real-Time Documentation: Providing photos and videos as events happen, supporting other departments' needs for fresh content that keeps the event's online presence dynamic",
+        "Coordination with Other Departments: Collaborating with Marketing and Social Media teams to supply visuals that align with Taqneeq's promotional goals and branding requirements",
+        "Highlighting Sponsors and Key Figures: Focusing on sponsor branding, key speakers, and notable participants to ensure visibility and proper acknowledgment",
+        "Archival Collection: Creating a comprehensive visual record of the event for future reference, promotional purposes, and showcasing Taqneeq's success"
+      ],
+      "skills_required": [
+        "Camera Operation: Skilled use of DSLRs or mirrorless cameras, with familiarity in different camera settings to capture high-quality images",
+        "Videography Techniques: Understanding the basics of videography, such as framing, angles, and stability, for effective documentation of dynamic events",
+        "Lighting Knowledge: Ability to adapt to various lighting conditions, whether indoors or outdoors, to capture clear and appealing shots",
+        "Organizational Skills: Managing and organizing large volumes of media files to ensure easy access and quick retrieval for other teams"
+      ],
+      "soft_skills_required": [
+        "Communication: Clear, effective communication to coordinate with team members and other departments, ensuring alignment with event requirements",
+        "Teamwork: Ability to work collaboratively within a team and support each other in covering different aspects of Taqneeq",
+        "Time Management: Efficiently managing time to cover events according to a strict schedule, ensuring important moments are not missed",
+        "Adaptability: Flexibility to work in different event environments, adjusting to various shooting conditions and last-minute changes",
+        "Problem-Solving: Quick thinking to address challenges like lighting changes or unplanned movement, ensuring high-quality shots are still captured"
+      ],
+      "skills_perks_gained": [
+        "Portfolio Building: A chance to create a professional portfolio with a range of event photography and videography focused on technology and innovation",
+        "Technical Mastery: Hands-on experience with professional camera equipment and various shooting techniques in a fast-paced environment",
+        "Networking: Interacting with other departments, sponsors, and guest speakers, expanding professional connections and networking opportunities",
+        "Event Documentation Insight: Learning the logistics behind event coverage, gaining skills valuable for future projects and large-scale events",
+        "Collaborative Skills: Building teamwork and communication abilities, important in both creative and professional settings"
+      ],
+      "example_tasks": [
+        "Capturing Key Event Highlights: Photographing and recording critical moments during competitions, workshops, and lectures, focusing on both participants and audience reactions",
+        "On-Demand Content Delivery: Providing timely photos and videos to the Social Media and Marketing teams for immediate use, supporting Taqneeq's real-time online presence",
+        "Pre-Event Preparation: Arriving early to scout locations, set up equipment, and prepare to capture significant moments, coordinating with event organizers for optimal positioning",
+        "Efficient File Organization: Sorting and categorizing media files by event and type to simplify access for departments requiring them for promotional or archival purposes"
+      ],
+      "target_audience": [
+        "Event Participants: Engaging with students, guest speakers, and attendees, making them feel comfortable to capture candid and posed shots",
+        "Other Departments: Providing necessary visuals to Marketing, Social Media, and Design teams, aiding in promotional content and post-event highlights",
+        "Sponsors and VIPs: Focusing on sponsor branding and key speakers, ensuring their contributions are captured and represented for acknowledgment"
+      ],
+      "trait_weights": {
+        "coding_aptitude": 0.2,
+        "hardware_technical": 0.4,
+        "digital_design": 0.85,
+        "web_development": 0.3,
+        "visual_creativity": 0.95,
+        "content_creation": 0.8,
+        "hands_on_crafting": 0.6,
+        "innovation_ideation": 0.7,
+        "stakeholder_management": 0.4,
+        "team_collaboration": 0.8,
+        "public_interaction": 0.8,
+        "networking_ability": 0.5,
+        "logistics_coordination": 0.6,
+        "process_management": 0.7,
+        "event_execution": 0.85,
+        "strategic_planning": 0.4,
+        "business_development": 0.3,
+        "financial_management": 0.2,
+        "leadership_initiative": 0.6,
+        "analytical_thinking": 0.5
+      }
+    },
+    {
+      "id": "administration",
+      "name": "Administration",
+      "description": "Planning detailed event schedules and timelines, coordinating with various departments to ensure seamless execution. Handle permissions from college authorities, manage documentation, and ensure compliance with institutional policies.",
+      "core_responsibilities": [
+        "Scheduling and Coordination: Plan detailed event schedules and timelines, coordinating with various departments to ensure seamless execution",
+        "Permissions and Formalities: Handle permissions from college authorities, manage documentation, and ensure compliance with institutional policies"
+      ],
+      "skills_required": [
+        "Communication Tools: Proficiency in digital communication tools like Slack, WhatsApp, or MS Teams for inter-departmental coordination"
+      ],
+      "soft_skills_required": [
+        "Effective Communication: Clearly and professionally communicate with team members, stakeholders, and participants",
+        "Teamwork and Collaboration: Work collaboratively with other departments, recognizing the shared responsibility for event success",
+        "Problem Solving: Demonstrate quick thinking and adaptability to handle unexpected challenges or last-minute changes",
+        "Time Management: Manage multiple tasks simultaneously, especially under tight deadlines"
+      ],
+      "skills_perks_gained": [
+        "Event Management Skills: Gain hands-on experience in organizing and managing large-scale events, enhancing both portfolio and resume"
+      ],
+      "example_tasks": [
+        "Securing Permissions: Interact with the college's administration to determine necessary permissions to meet other departments' requirements"
+      ],
+      "target_audience": [
+        "Other Departments: Collaborate with departments like Marketing, Technical, and Marketing for seamless event integration",
+        "Faculty and College Authorities: Secure permissions and approvals, ensuring adherence to institutional guidelines"
+      ],
+      "trait_weights": {
+        "coding_aptitude": 0.2,
+        "hardware_technical": 0.1,
+        "digital_design": 0.3,
+        "web_development": 0.3,
+        "visual_creativity": 0.3,
+        "content_creation": 0.6,
+        "hands_on_crafting": 0.2,
+        "innovation_ideation": 0.4,
+        "stakeholder_management": 0.85,
+        "team_collaboration": 0.95,
+        "public_interaction": 0.6,
+        "networking_ability": 0.6,
+        "logistics_coordination": 0.9,
+        "process_management": 0.95,
+        "event_execution": 0.7,
+        "strategic_planning": 0.85,
+        "business_development": 0.5,
+        "financial_management": 0.7,
+        "leadership_initiative": 0.8,
+        "analytical_thinking": 0.8
+      }
+    },
+    {
+      "id": "ihc",
+      "name": "Infrastructure, Hospitality & Crafts",
+      "description": "Responsible for making Taqneeq look amazing! From banners to props, we set up everything that gives the event its unique vibe. Build large displays, posters, and creative pieces to make each spot around campus feel like part of Taqneeq.",
+      "core_responsibilities": [
+        "Setting Up Decor: Responsible for making Taqneeq look amazing! From banners to props, we set up everything that gives the event its unique vibe",
+        "Creating Art Installations: Build large displays, posters, and creative pieces to make each spot around campus feel like part of Taqneeq",
+        "Collaborating with Other Teams: Work with Marketing, Sponsorship, and Hospitality to keep the whole fest visually cohesive and on-brand",
+        "Ideation: Continuously brainstorm new decor ideas and trends to make Taqneeq memorable"
+      ],
+      "skills_required": [
+        "Crafting Skills: Proficiency with hands-on activities like painting, sketching, and working with diverse materials",
+        "Basic Tool Skills: Familiarity with tools like scissors, glue guns, and cutters to bring ideas to life"
+      ],
+      "soft_skills_required": [
+        "Creativity & Imagination: Generate fresh ideas and unique designs that stand out",
+        "Teamwork: Work well with others; most projects require collaborative efforts",
+        "Problem-Solving: Adapt quickly when things don't go as planned",
+        "Time Management: Stay on track with deadlines to keep everything running smoothly",
+        "Initiative: Bring forward new ideas and approaches"
+      ],
+      "skills_perks_gained": [
+        "Hands-On Decor Skills: Gain experience in crafting, design, and setup, valuable for future creative work",
+        "Networking: Connect with members from across Taqneeq and other departments, building lasting connections",
+        "Memorable Experiences: Be part of IHC, filled with fun, creativity, and unforgettable memories"
+      ],
+      "example_tasks": [
+        "Designing Thematic Decor: Create decor items based on the Taqneeq theme, such as centerpieces, entrance arches, or themed photo booths",
+        "Building Installations: Construct large-scale art installations using materials like wood and cardboard for display around the campus",
+        "Painting Banners: Design and hand-paint banners that convey key messages or represent Taqneeq's theme",
+        "Setting Up Lighting: Install decorative lighting to create a warm atmosphere, especially for evening events"
+      ],
+      "target_audience": [
+        "If you love art and design, keep up with the latest trends, and enjoy getting creative, IHC is the perfect place for you! If you're skilled at brainstorming fresh ideas and turning them into eye-catching decor, we want you on our team!"
+      ],
+      "trait_weights": {
+        "coding_aptitude": 0.2,
+        "hardware_technical": 0.6,
+        "digital_design": 0.6,
+        "web_development": 0.2,
+        "visual_creativity": 0.9,
+        "content_creation": 0.5,
+        "hands_on_crafting": 0.95,
+        "innovation_ideation": 0.9,
+        "stakeholder_management": 0.4,
+        "team_collaboration": 0.85,
+        "public_interaction": 0.5,
+        "networking_ability": 0.4,
+        "logistics_coordination": 0.7,
+        "process_management": 0.6,
+        "event_execution": 0.8,
+        "strategic_planning": 0.5,
+        "business_development": 0.2,
+        "financial_management": 0.4,
+        "leadership_initiative": 0.7,
+        "analytical_thinking": 0.5
+      }
+    },
+    {
+      "id": "publicity",
+      "name": "Publicity",
+      "description": "Enhancing the visibility and reach of the fest. This team ensures that all promotional efforts align with the fest's goals, amplifying its presence both on and off campus through coordinated outreach efforts and public relations strategies.",
+      "core_responsibilities": [
+        "Coordinating Outreach Efforts: Collaborating with other universities and colleges, sharing fest details and promotional material to attract a diverse crowd",
+        "Building Public Relations Strategies: Engaging with local media (newspapers) to secure coverage and manage public relations initiatives to boost fest awareness",
+        "Offline Promotions: Planning and executing on-ground promotions on campus and at nearby locations, including distributing flyers, posters, and setting up promotional booths",
+        "Email and SMS Campaigns: Developing targeted email and SMS campaigns to keep prospective attendees updated on fest activities and event deadlines"
+      ],
+      "skills_required": [
+        "Creating messages: Creating spam messages for greater publicity of the event",
+        "Microsoft Office/Google Workspace: For collaboration, documentation, and presentations"
+      ],
+      "soft_skills_required": [
+        "Communication: Clear, concise, and persuasive communication skills, especially for crafting compelling messages for diverse audiences",
+        "Teamwork and Collaboration: Ability to work with both internal departments and external contacts to ensure a cohesive publicity effort",
+        "Creativity: A flair for innovative ideas, especially for content creation and marketing tactics that stand out",
+        "Time Management: Ability to prioritize and handle multiple tasks within tight deadlines, as publicity work is often time-sensitive",
+        "Adaptability: Flexibility to adjust tactics based on the latest trends, platform algorithms, and audience preferences",
+        "Problem-Solving: Resourcefulness to overcome challenges, especially when dealing with unexpected promotional requirements or setbacks"
+      ],
+      "skills_perks_gained": [
+        "Real-World Marketing Experience: Hands-on experience in digital and traditional marketing tactics, including social media, public relations, and email marketing",
+        "Networking Opportunities",
+        "Portfolio Building: Opportunities to create a professional portfolio with designed graphics, campaign screenshots, and analytics reports",
+        "Leadership and Project Management: Chance to develop leadership qualities by taking ownership of specific publicity campaigns or activities",
+        "Creative Development: Cultivating creativity in crafting messages, visuals, and strategies that resonate with the target audience"
+      ],
+      "example_tasks": [
+        "Setting Up On-Campus Promotions: Organizing promotional booths, distributing flyers, and interacting with students to increase fest awareness",
+        "Drafting Press Releases: Writing and sending press releases to local newspapers and media outlets to secure event coverage",
+        "Engaging in Online Community Management: Responding to comments, direct messages, and tags to boost interaction and excitement among followers",
+        "Coordinating with Other Departments: Regular communication with teams like Marketing, Events, and Logistics to ensure cohesive messaging across all platforms"
+      ],
+      "target_audience": [
+        "The General Public: Including students, faculty, and external attendees interested in participating or attending",
+        "University and College Representatives: External organizations and institutions to encourage participation from other campuses",
+        "Social Media Followers: A diverse online audience interested in the fest, ranging from students to industry professionals",
+        "Sponsors and Partners: Ensuring the sponsor's brand is highlighted in promotions and collaborating for mutual publicity"
+      ],
+      "trait_weights": {
+        "coding_aptitude": 0.1,
+        "hardware_technical": 0.1,
+        "digital_design": 0.5,
+        "web_development": 0.3,
+        "visual_creativity": 0.6,
+        "content_creation": 0.9,
+        "hands_on_crafting": 0.2,
+        "innovation_ideation": 0.7,
+        "stakeholder_management": 0.8,
+        "team_collaboration": 0.8,
+        "public_interaction": 0.95,
+        "networking_ability": 0.85,
+        "logistics_coordination": 0.6,
+        "process_management": 0.6,
+        "event_execution": 0.7,
+        "strategic_planning": 0.8,
+        "business_development": 0.6,
+        "financial_management": 0.3,
+        "leadership_initiative": 0.75,
+        "analytical_thinking": 0.6
+      }
+    },
+    {
+      "id": "logistics",
+      "name": "Logistics",
+      "description": "Coordinating event schedules and timelines, managing venue logistics, and ensuring all necessary permits and licenses are acquired. Maintaining inventory of supplies and equipment needed for events.",
+      "core_responsibilities": [
+        "Coordinating event schedules and timelines",
+        "Managing venue logistics, including setup and breakdown",
+        "Overseeing transportation arrangements for equipment and personnel",
+        "Ensuring all necessary permits and licenses are acquired",
+        "Maintaining inventory of supplies and equipment needed for events"
+      ],
+      "skills_required": [
+        "None"
+      ],
+      "soft_skills_required": [
+        "Strong Communication Skills: Essential for coordinating with team members and vendors",
+        "Excellent Organizational Skills: Needed to manage multiple tasks effectively",
+        "Problem-Solving Abilities: To address logistical challenges on the fly",
+        "Teamwork Skills: Collaborate effectively with other departments",
+        "Negotiation Skills: Ability to negotiate with vendors for better rates and secure the best deals"
+      ],
+      "skills_perks_gained": [
+        "Event Planning and Execution Experience: Hands-on involvement in organizing events",
+        "Organizational and Leadership Development: Enhancing skills in managing people and logistics",
+        "Networking Opportunities: Engage with vendors and sponsors, strengthening professional connections",
+        "Negotiation Proficiency: Gain experience in negotiating costs and terms with vendors, building valuable negotiation expertise"
+      ],
+      "example_tasks": [
+        "Procuring equipment at the best possible prices",
+        "Organizing the layout of tables, chairs, and equipment for events",
+        "Fulfilling requirements given by other departments"
+      ],
+      "target_audience": [
+        "Primary Interaction: Vendors and other departments"
+      ],
+      "trait_weights": {
+        "coding_aptitude": 0.3,
+        "hardware_technical": 0.2,
+        "digital_design": 0.3,
+        "web_development": 0.4,
+        "visual_creativity": 0.3,
+        "content_creation": 0.4,
+        "hands_on_crafting": 0.4,
+        "innovation_ideation": 0.5,
+        "stakeholder_management": 0.8,
+        "team_collaboration": 0.85,
+        "public_interaction": 0.6,
+        "networking_ability": 0.7,
+        "logistics_coordination": 0.95,
+        "process_management": 0.9,
+        "event_execution": 0.85,
+        "strategic_planning": 0.8,
+        "business_development": 0.6,
+        "financial_management": 0.8,
+        "leadership_initiative": 0.8,
+        "analytical_thinking": 0.8
+      }
+    },
+    {
+      "id": "informals",
+      "name": "Informals",
+      "description": "Design/Ideate and organize engaging and informal games for event participants. Manage game execution, ensure smooth flow and timely participation, while actively engaging participants to create an enjoyable and memorable experience.",
+      "core_responsibilities": [
+        "Design/Ideate and Organize: Create engaging and informal games for event participants",
+        "Manage Game Execution: Ensure smooth flow and timely participation in each game",
+        "Participant Engagement: Actively engage participants to create an enjoyable and memorable experience"
+      ],
+      "skills_required": [
+        "None required"
+      ],
+      "soft_skills_required": [
+        "Communication Skills: Strong skills for interacting with participants and team members",
+        "Teamwork: Collaborate effectively on game planning and execution",
+        "Problem-Solving: Address unexpected challenges during events",
+        "Time Management: Ensure smooth transitions between games and activities",
+        "Creative Ideation: Organize unique and engaging games/events"
+      ],
+      "skills_perks_gained": [
+        "Leadership and Team Management: Develop abilities to lead teams, delegate tasks, and manage people effectively",
+        "Event Planning and Execution: Gain hands-on experience in organizing, coordinating, and executing fun and engaging events",
+        "Communication and Networking: Improve interpersonal communication while expanding your network through team collaboration and participant interaction"
+      ],
+      "example_tasks": [
+        "Brainstorming and designing new game concepts",
+        "Setting up game stations and ensuring all materials are prepared",
+        "Assisting the Publicity and Marketing departments if needed",
+        "Collecting feedback post-event to improve future activities"
+      ],
+      "target_audience": [
+        "Primary Interaction: Event participants, students, and other departments primarily for game coordination",
+        "Outreach: Potential participants for cold calls"
+      ],
+      "trait_weights": {
+        "coding_aptitude": 0.2,
+        "hardware_technical": 0.2,
+        "digital_design": 0.4,
+        "web_development": 0.2,
+        "visual_creativity": 0.7,
+        "content_creation": 0.6,
+        "hands_on_crafting": 0.5,
+        "innovation_ideation": 0.85,
+        "stakeholder_management": 0.4,
+        "team_collaboration": 0.85,
+        "public_interaction": 0.95,
+        "networking_ability": 0.7,
+        "logistics_coordination": 0.6,
+        "process_management": 0.4,
+        "event_execution": 0.9,
+        "strategic_planning": 0.5,
+        "business_development": 0.3,
+        "financial_management": 0.2,
+        "leadership_initiative": 0.8,
+        "analytical_thinking": 0.4
       }
     }
   ]
