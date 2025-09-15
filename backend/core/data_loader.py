@@ -33,27 +33,27 @@ TRAIT_NAMES = [
 ]
 
 class TaqneeqQuestion(BaseModel):
-    id:str
-    text:str
-    type:str
-    options:List[str]
-    category:str
-    primary_trait:str
-    secondary_traits:List[str]
-    information_value:float
-    target_departments: List[str]
+    id: str
+    text: str
+    type: str
+    options: List[str]
+    category: str
+    primary_trait: str
+    secondary_traits: List[str]
+    information_value: float
+    target_departments: List[str]  # This is what the model expects
     question_stage: str
 
 class TaqneeqDepartment(BaseModel):
-    id:str
-    name:str
-    description:str
-    core_responsibilities:List[str]
-    skills_required:List[str]
-    soft_skills_required:List[str]
-    skills_perks_gained:List[str]
+    id: str
+    name: str
+    description: str
+    core_responsibilities: List[str]
+    skills_required: List[str]
+    soft_skills_required: List[str]
+    skills_perks_gained: List[str]
     example_tasks: List[str]
-    target_audience:List[str]
+    target_audience: List[str]
     trait_weights: Dict[str, float]
 
 def load_departments(file_path: str = "data/departments.json") -> Dict[str, TaqneeqDepartment]:
@@ -76,7 +76,7 @@ def load_departments(file_path: str = "data/departments.json") -> Dict[str, Taqn
         logger.error(f"Failed to load departments: {e}")
         raise
 
-def load_questions(file_path: str = "data/question_bank.json") -> List[TaqneeqQuestion]:
+def load_questions(file_path: str = "data/question_bank.json") -> Tuple[Dict[str, TaqneeqQuestion], List[TaqneeqQuestion]]:
     try:
         if not os.path.exists(file_path):
             raise FileNotFoundError(f"Questions file not found: {file_path}")
@@ -84,15 +84,23 @@ def load_questions(file_path: str = "data/question_bank.json") -> List[TaqneeqQu
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
-        #load all questions
+        # Load all questions with field name fix
         all_questions = {}
         for q_data in data['question_bank']:
+            # Fix field name mismatch: targets_departments -> target_departments
+            if 'targets_departments' in q_data:
+                q_data['target_departments'] = q_data.pop('targets_departments')
+            
             question = TaqneeqQuestion(**q_data)
             all_questions[question.id] = question
         
-        # load seed questions
+        # Load seed questions with field name fix
         seed_questions = []
         for q_data in data['seed_questions']:
+            # Fix field name mismatch: targets_departments -> target_departments
+            if 'targets_departments' in q_data:
+                q_data['target_departments'] = q_data.pop('targets_departments')
+            
             question = TaqneeqQuestion(**q_data)
             seed_questions.append(question)
             all_questions[question.id] = question  # Also add to main dict
@@ -105,24 +113,22 @@ def load_questions(file_path: str = "data/question_bank.json") -> List[TaqneeqQu
         raise
 
 def validate_data_integrity(departments: Dict[str, TaqneeqDepartment], questions: Dict[str, TaqneeqQuestion]) -> Tuple[bool, List[str]]:
-
     errors = []
     
-    # validate trait consistency
+    # Validate trait consistency
     for dept_id, dept in departments.items():
-        # check all traits are present
+        # Check all traits are present
         missing_traits = set(TRAIT_NAMES) - set(dept.trait_weights.keys())
         if missing_traits:
             errors.append(f"Department {dept_id} missing traits: {missing_traits}")
         
-        # check trait weights are in valid range
+        # Check trait weights are in valid range
         for trait, weight in dept.trait_weights.items():
             if not 0.0 <= weight <= 1.0:
                 errors.append(f"Department {dept_id} trait {trait} has invalid weight: {weight}")
     
-    # validate questions
+    # Validate questions
     for q_id, question in questions.items():
-
         if question.type != "likert_5":
             errors.append(f"Question {q_id} has invalid type: {question.type}")
 
@@ -143,7 +149,7 @@ def validate_data_integrity(departments: Dict[str, TaqneeqDepartment], questions
     if len(questions) < 20:
         errors.append(f"Insufficient questions for classification ({len(questions)} < 20)")
     
-    # check seed questions
+    # Check seed questions
     seed_count = sum(1 for q in questions.values() if q.question_stage == "seed")
     if seed_count != 4:
         errors.append(f"Expected exactly 4 seed questions, found {seed_count}")
